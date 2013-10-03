@@ -3,27 +3,20 @@
   <CodeSnippet Format="1.0.0">
     <Header>
       <Keywords>
-        <Keyword>Assert Equal MsTest</Keyword>
+        <Keyword>Assert Not Equal MsTest</Keyword>
       </Keywords>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
       </SnippetTypes>
-      <Title>asseq</Title>
+      <Title>assneq</Title>
       <Author>david milby</Author>
-      <Description>Assert.AreEqual</Description>
+      <Description>Assert.AreNotEqual</Description>
       <HelpUrl>
       </HelpUrl>
-      <Shortcut>asseq</Shortcut>
+      <Shortcut>assneq</Shortcut>
     </Header>
     <Snippet>
       <Declarations>
-        <Literal Editable="true">
-          <ID>one</ID>
-          <ToolTip>one</ToolTip>
-          <Default>one</Default>
-          <Function>
-          </Function>
-        </Literal>
         <Literal Editable="true">
           <ID>expected</ID>
           <ToolTip>expected</ToolTip>
@@ -39,7 +32,7 @@
           </Function>
         </Literal>
       </Declarations>
-      <Code Language="csharp"><![CDATA[Assert.AreEqual($expected$,$actual$,@" $expected$ vs $actual$");
+      <Code Language="csharp"><![CDATA[Assert.AreNotEqual($expected$,$actual$,@" $expected$ vs $actual$");
 $end$]]></Code>
     </Snippet>
   </CodeSnippet>
