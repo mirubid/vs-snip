@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Keywords>
+        <Keyword>Assert Equal MsTest</Keyword>
+      </Keywords>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>asseq</Title>
+      <Author>david milby</Author>
+      <Description>Assert.AreEqual</Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>asseq</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>one</ID>
+          <ToolTip>one</ToolTip>
+          <Default>one</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>expected</ID>
+          <ToolTip>expected</ToolTip>
+          <Default>expected</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>actual</ID>
+          <ToolTip>actual</ToolTip>
+          <Default>actual</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>source</ID>
+          <ToolTip>source</ToolTip>
+          <Default>source</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>msg</ID>
+          <ToolTip>msg</ToolTip>
+          <Default>msg</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[$source$.TraceEvent(TraceEventType.Information,1,$msg$);
+$end$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
